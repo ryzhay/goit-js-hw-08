@@ -21,7 +21,7 @@ if(currentLocalData){
 
 function onInput () {
    email = form.email.value,
-   messageValue = form.message.value,
+   message = form.message.value,
    localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
 };
 
